@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+  font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+  background-color: black;
+  color: white;
+}
+
+.gif {
+  width: 55%;
+  margin: 90px auto 0 auto;
+}
+
+.intro {
+  position: absolute;
+  top: 100px;
+  left: 100px;
+}
+
+.title {
+  color: #AA2EE6;
+  font-size: 1.875em;
+}
+
+.name, .prof {
+  color: #fff;
+  background: linear-gradient(271deg,#6A097D 30%,#4A47A3 50%,#a162e8 70%,#AD62AA 94%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  letter-spacing: -1.5px;
+  line-height: 110%;
+}
+
+.name {
+  font-size: 4em;
+  margin: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: type 2s steps(10, end) forwards, blink .2s infinite;
+}
+
+.prof {
+  font-size: 3.5em;
+  margin: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: type 2s steps(13, end) forwards, blink .2s infinite;
+}
+
+@keyframes type {
+  0% {
+    width: 0;
+  }
+
+  100% {
+    width: 100%;
+  }
+}
+
+.quote, h5 {
+  color: #A72693
+}
+
+h4 {
+  color: #D789D7;
+  margin: 0;
+}
+
+.pq {
+  margin: 0;
+}
+
+.h3q {
+  margin: 0;
+}
+
+p {
+  color: #D789D7;
+  font-size: 1.25em;
+}
+
+.spliter, .hr {
+  border-style: none;
+}
+
+
+.skills-table {
+  color: #A6B1E1;
+  font-size: 1.25em;
+  position: relative;
+  left: 100px
+}
+
+.bio-table {
+  color: #D789D7;
+  font-size: 1.25em;
+  position: relative;
+  left: 100px
+}
+
+.footer-link {
+  display: inline-block;
+  width: 50px;
+}
